@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Home page</title>
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+ <h1> Gallery </h1>
+ <div id="center">
+ <div class="gallery">
+  <a target="_blank" href="img_5terre.jpg">
+    <img  src="{{ url_for('static', filename='cat4.jpg') }}" alt="Cat" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+    <img  src="{{ url_for('static', filename='cat3.jpg') }}" alt="Cat" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img  src="{{ url_for('static', filename='cat1.jpg') }}" alt="Cat" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+  </div>
+
+</body>
+</html>
