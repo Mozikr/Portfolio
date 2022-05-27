@@ -13,6 +13,7 @@ def show_user_profile(username):
     else:
         return 'HTTP GET for user %s' % username
 
+#Eluwina gościu
 # @app.route('/error_denied')
 # def error_denied():
 #     abort(401)
