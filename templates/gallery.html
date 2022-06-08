@@ -31,28 +31,29 @@
     </nav>
 
  <h1> Gallery </h1>
- <div id="center">
- <div class="gallery">
-  <a target="_blank" href="img_5terre.jpg">
-    <img  src="{{ url_for('static', filename='cat4.jpg') }}" alt="Cat" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
+ <div class="row">
+  <div class="col">
+      <img src="{{ url_for('static', filename='cat1.jpg') }}" class="rounded mx-auto d-block p-1"alt="kot" width="300" height="250">
+      <img src="{{ url_for('static', filename='cat3.jpg') }}" class="rounded mx-auto d-block p-1"alt="kot" width="300" height="250">
+      <img src="{{ url_for('static', filename='cat4.jpg') }}" class="rounded mx-auto d-block p-1"alt="kot" width="300" height="250">
 
-<div class="gallery">
-  <a target="_blank" href="img_forest.jpg">
-    <img  src="{{ url_for('static', filename='cat3.jpg') }}" alt="Cat" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
-    <img  src="{{ url_for('static', filename='cat1.jpg') }}" alt="Cat" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
   </div>
+
+  <div class="col">
+      <img src="{{ url_for('static', filename='cat1.jpg') }}" class="rounded mx-auto d-block p-1"alt="kot" width="300" height="250">
+      <img src="{{ url_for('static', filename='cat3.jpg') }}" class="rounded mx-auto d-block p-1"alt="kot" width="300" height="250">
+      <img src="{{ url_for('static', filename='cat4.jpg') }}" class="rounded mx-auto d-block p-1"alt="kot" width="300" height="250">
+
+  </div>
+
+  <div class="col">
+      <img src="{{ url_for('static', filename='cat1.jpg') }}" class="rounded mx-auto d-block p-1"alt="kot" width="300" height="250">
+      <img src="{{ url_for('static', filename='cat3.jpg') }}" class="rounded mx-auto d-block p-1"alt="kot" width="300" height="250">
+      <img src="{{ url_for('static', filename='cat4.jpg') }}" class="rounded mx-auto d-block p-1"alt="kot" width="300" height="250">
+
+
+  </div>
+</div>
 
 </body>
 </html>

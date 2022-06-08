@@ -28,7 +28,37 @@
         </ul>
       </div>
     </nav>
- <h1> Contact </h1>
+
+    <div class="row">
+  <div class="col"></div>
+  <div class="col">
+
+      <form action="/action_page.php">
+  <div class="mb-3 mt-3">
+    <label for="email" class="form-label">Email:</label>
+    <input type="email" class="form-control h-10" id="email" placeholder="Enter email" name="email">
+  </div>
+  <div class="col-mb-3 mt-3 ">
+    <label for="pwd" class="form-label">Nick:</label>
+    <input type="text" class="form-control" id="pwd" placeholder="Enter nick" name="nick">
+  </div>
+  <div class="form-check mb-3 mt-3">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox" name="remember"> Remember me
+    </label>
+  </div>
+    <div class="mb-3 mt-3">
+      <label for="comment">Comments:</label>
+      <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+    </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+  </div>
+  <div class="col"></div>
+</div>
+
+
 
 </body>
 </html>

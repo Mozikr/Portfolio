@@ -30,11 +30,42 @@
         </ul>
       </div>
     </nav>
+        <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-        <div class="container-fluid pt-5 text-center">
-  <h1>Welcome</h1>
-  <h2>My name is Szymon Mozol</h2>
-  <h2>and this is my portfolio home page.</h2>
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{{ url_for('static', filename='gory1.png') }}" alt="Los Angeles" class="d-block w-100" height="600">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ url_for('static', filename='gory2.png') }}" alt="Chicago" class="d-block w-100" height="600">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ url_for('static', filename='gory3.png') }}" alt="New York" class="d-block w-100"  height="600">
+    </div>
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+        <div class="container mt-3">
+  <div class="mt-4 p-5 bg-dark text-white rounded">
+    <h1>Welcome</h1>
+    <p>My name is Szymon Mozol and this is my portfolio home page.</p>
+  </div>
         </div>
 </body>
 </html>
