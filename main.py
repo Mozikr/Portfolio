@@ -48,6 +48,10 @@ def about():
 def gallery():
     return render_template('gallery.html')
 
+@app.route('/ksiega_gosci')
+def ksiega_gosci():
+    return render_template('ksiega_gosci.html')
+
 
 
 if __name__ == '__main__':
