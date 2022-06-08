@@ -1,5 +1,6 @@
-
-
+body{
+    background-color: #727572;
+}
 div.desc {
   padding: 15px;
   text-align: center;
@@ -14,4 +15,8 @@ h1{
 }
 div.form1{
     width: 500;
+}
+p{
+    text-align: center;
+    font-size: 1.5em;
 }
