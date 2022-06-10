@@ -11,7 +11,9 @@ div.desc {
     margin-right: 15%;
 }
 h1{
+    padding-top: 10px;
     text-align: center;
+    color:white;
 }
 div.form1{
     width: 500;
@@ -19,4 +21,23 @@ div.form1{
 p{
     text-align: center;
     font-size: 1.5em;
+}
+#aboutmee{
+    padding-top: 100px;
+}
+
+#contactform{
+        margin:auto;
+        width:500px;
+        height:500px;
+        color: white;
+        padding-top: 100px;
+}
+
+#galeria{
+        width: 100%;
+        height: 100%;
+}
+.col1{
+    padding-left:auto;
 }

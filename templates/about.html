@@ -6,10 +6,10 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
  <title>About me</title>
 </head>
 <body>
-<div class="container-fluid">
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
               <div class="container-fluid">
                 <ul class="navbar-nav">
@@ -31,18 +31,19 @@
         </ul>
       </div>
     </nav>
-
-    <div class="container-fluid pt-5 text-center">
-  <h1>About Me</h1>
-  <p1>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Aliquam dictum risus sodales elementum lacinia. Mauris quis magna nulla.
-        Vivamus a scelerisque quam, eu lacinia risus. Nam tortor neque, euismod sed felis ac,
-        elementum vehicula ligula. Suspendisse felis orci, finibus sit amet dui sit amet, placerat posuere arcu.
-        Morbi eget ligula eget nibh auctor venenatis in cursus lorem. Pellentesque eu ex auctor, ullamcorper dui molestie,
-        venenatis nunc. Integer non odio pretium,
-        fermentum dolor at, vulputate nunc. Fusce in hendrerit dolor.
-    </p1>
-        </div>
+<div id="aboutmee">
+   <div class="container mt-3">
+        <div class="mt-3 p-5 bg-dark text-white rounded">
+             <h1>About Me</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aliquam dictum risus sodales elementum lacinia. Mauris quis magna nulla.
+                    Vivamus a scelerisque quam, eu lacinia risus. Nam tortor neque, euismod sed felis ac,
+                    elementum vehicula ligula. Suspendisse felis orci, finibus sit amet dui sit amet, placerat posuere arcu.
+                    Morbi eget ligula eget nibh auctor venenatis in cursus lorem. Pellentesque eu ex auctor, ullamcorper dui molestie,
+                    venenatis nunc. Integer non odio pretium,
+                    fermentum dolor at, vulputate nunc. Fusce in hendrerit dolor.
+                </p>
+  </div>
+       </div>
 </body>
 </html>
