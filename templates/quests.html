@@ -1,0 +1,13 @@
+{% extends "index.html" %}
+{% block title %}Home{% endblock %}
+{% set active_page = "index" -%}
+{% block body %}
+    <div class="form">
+        <h1>Comments</h1>
+        {% for results in data %}
+        <p> {{result.name}} wrote {{result.text}}</p>
+        {% else %}
+        <p>None</p>
+    </div>
+{% endfor %}
+{% endblock %}
