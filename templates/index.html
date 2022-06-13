@@ -66,7 +66,21 @@
   <div class="mt-4 p-5 bg-dark text-white rounded">
     <h1>Welcome</h1>
     <p>My name is Szymon Mozol and this is my portfolio home page.</p>
-  </div>
+          <h1>Check the Weather!</h1>
+         <form action="/" method="POST">
+             <div id="pogoda">
+         <input name="city" placeholder="Type city">
+         <input type="submit">
+             </div>
+                      </form>
+         {% if data %}
+         <p>{{data}}%</p>
+         {% endif %}
+        <p>Dostawca API : OpenWeather</p>
+      </div>
+             </div>
         </div>
+
+
 </body>
 </html>
