@@ -87,8 +87,8 @@ def show_user_profile(username):
     response.headers['X-Something'] = 'A value'
     return response
 
-    @app.errorhandler(404)
-    def not_found_error(error):
+@app.errorhandler(404)
+def not_found_error(error):
         return render_template('404.html'), 404
 
 @app.route('/')
